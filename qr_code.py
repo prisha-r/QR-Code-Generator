@@ -1,0 +1,10 @@
+import qrcode
+website_link=input('Enter link of QR code:')
+qr = qrcode.QRCode(version = 1, box_size = 5, border = 5)
+qr.add_data(website_link)
+qr.make()
+img = qr.make_image(fill_color = 'black', back_color = 'white')
+file_name=input('Enter the name of file u would like to save your QR Code as:')
+img.save(file_name+'.png')
+print('File saved successfully!')
+img.show()
