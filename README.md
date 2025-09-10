@@ -29,7 +29,9 @@ Enter the desired file name for the QR code.
 The QR code image will be saved and displayed automatically.
 
 Example
+
 After running the script and entering https://www.youtube.com as the URL, a file named youtube_qr.png will be created and opened automatically.
 
 Author
+
 Prisha
